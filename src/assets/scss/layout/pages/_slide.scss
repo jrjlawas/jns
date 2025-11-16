@@ -487,10 +487,10 @@ img {
   --ztc-text-text-1: #fff;
   --ztc-text-text-2: #514F4C;
   --ztc-text-text-3: #181713;
-  --ztc-text-text-4: #B8860B;
+  --ztc-text-text-4: #FBD459;
   --ztc-text-text-5: #72706C;
   --ztc-text-text-6: #6A0F0F;
-  --ztc-text-text-7: #B8860B;
+  --ztc-text-text-7: #FBD459;
   --ztc-text-text-8: #170822;
   --ztc-text-text-9: #514E53;
   --ztc-text-text-10: #56227F;
@@ -502,7 +502,7 @@ img {
   --ztc-text-text-16: #504F4E;
   --ztc-bg-bg-1: #fff;
   --ztc-bg-bg-2: #6A0F0F;
-  --ztc-bg-bg-3: #B8860B;
+  --ztc-bg-bg-3: #FBD459;
   --ztc-bg-bg-4: #F6F4EE;
   --ztc-bg-bg-5: #FBF7FF;
   --ztc-bg-bg-6: #E7E6EA;
@@ -8143,18 +8143,44 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
   position: relative;
   z-index: 1;
 }
+// .vl-hero-bg {
+//   background-size: cover;
+//   background-position: center;
+//   background-repeat: no-repeat;
+//   background: url('/src/assets/img/banner/vl-banner-1.1.png') no-repeat center;
+//   background-size: cover;
+//   width: 100%;
+//   position: relative;
+//   z-index: 1;
+//   overflow: hidden;
+// }
+
 .vl-hero-bg {
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  // background-color: #ddd;
-  background: url('/src/assets/img/banner/vl-banner-1.1.png') no-repeat center;
-  background-size: cover;
-  width: 100%;
   position: relative;
-  z-index: 1;
+  width: 100%;
   overflow: hidden;
+
+  .vl-hero-video {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: auto;
+    height: 100%;
+    min-width: 100%;
+    min-height: 100%;
+    transform: translate(-50%, -50%);
+    object-fit: cover;
+    z-index: 0; // behind content
+  }
+
+  .vl-hero-section-title {
+    position: relative;
+    z-index: 1; // above video
+    color: white;
+  }
 }
+
+
 .vl-hero-bg:after {
   position: absolute;
   content: "";

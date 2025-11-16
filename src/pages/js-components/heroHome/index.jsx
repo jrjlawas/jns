@@ -2,6 +2,8 @@ import { useRef } from "react";
 import hero1 from "@/assets/img/shape/vl-hero-shape-1.1.png";
 import hero2 from "@/assets/img/shape/vl-hero-shape-1.2.png";
 import titleIcon from "@/assets/img/icons/vl-sub-title-icon.svg";
+
+import video from "@/assets/img/js/home/bgHome.webm";
 import {
   FaAngleLeft,
   FaAngleRight,
@@ -32,14 +34,15 @@ const Hero = () => {
     <div className="vl-banner p-relative fix">
       <Slider ref={sliderRef} {...settings} className="slider-active-1">
         <div className="vl-hero-slider vl-hero-bg slick-slide slick-current slick-active">
+          <video autoPlay muted loop className="vl-hero-video">
+            <source src={video} type="video/webm" />
+            Your browser does not support the video tag.
+          </video>
           <Container>
             <Row>
               <Col lg={9}>
                 <div className="vl-hero-section-title">
                   <h5 className="vl-subtitle">
-                    {/* <span>
-                      <img src={titleIcon} alt="titleIcon" />
-                    </span>{" "} */}
                     Your Future in Canada Starts Here.
                   </h5>
                   <h1 className="vl-title text-anime-style-3">

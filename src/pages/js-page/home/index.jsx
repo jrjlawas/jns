@@ -9,7 +9,7 @@ import favLogo5 from "@/assets/img/logo/fav-logo5.png";
 const Home = () => {
   return (
     <>
-      <PageMeta title="Helpy 5" icon={favLogo5} />
+      <PageMeta title="JS Global Marketing Services" icon={favLogo5} />
       <TopBanner />
       <Header />
       <Hero />
