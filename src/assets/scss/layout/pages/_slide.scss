@@ -8184,7 +8184,6 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
   position: relative;
   width: 100%;
   overflow: hidden;
-  height: 100vh; // make sure the hero fills the viewport
 
   .vl-hero-video {
     position: absolute;
@@ -8194,27 +8193,18 @@ section.vl-testimonial4.vl-testimonial-inner.testimonial2.sp2 .smarrow.abarow.ar
     height: 100%;
     min-width: 100%;
     min-height: 100%;
-    transform: translate(-50%, -50%) scale(1); // center & default scale
+    transform: translate(-50%, -50%);
     object-fit: cover;
-    z-index: 0;
-    transition: transform 0.5s ease; // smooth zoom on resize
+    z-index: 0; // behind content
   }
 
   .vl-hero-section-title {
     position: relative;
-    z-index: 1;
+    z-index: 1; // above video
     color: white;
   }
 }
 
-// Mobile: zoom out
-@media (max-width: 768px) {
-  .vl-hero-bg {
-    .vl-hero-video {
-      transform: translate(-50%, -50%) scale(0.8); // zoom out
-    }
-  }
-}
 
 
 

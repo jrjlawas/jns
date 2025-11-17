@@ -1,6 +1,6 @@
 import { Link } from "react-router";
-import logo1 from "@/assets/img/logo/vl-logo-1.1.png";
-import footerLogo1 from "@/assets/img/logo/vl-footer-logo-1.1.png";
+import logo1 from "@/assets/img/js/logo/logo.svg";
+import footerLogo1 from "@/assets/img/js/logo/footerLogo.svg";
 import {
   FaArrowRight,
   FaBars,
@@ -51,33 +51,15 @@ const SingleMobileMenu = () => {
         <div className="mobile-nav mobile-nav1">
           <ul className="mobile-nav-list nav-list1">
             <li>
-              <a href="#about">About</a>
+              <a href="/">Home</a>
             </li>
             <li>
-              <a href="#cause">Cause</a>
-            </li>
-            <li>
-              <a href="#event">Event</a>
-            </li>
-            <li>
-              <a href="#testimonial">Testimonial</a>
-            </li>
-            <li>
-              <a href="#gallery">Gallery</a>
-            </li>
-            <li>
-              <a href="#volunteer">Volunteer</a>
-            </li>
-            <li>
-              <a href="#blog">Blog</a>
-            </li>
-            <li>
-              <a href="#contact">Contact</a>
+              <a href="/">Contact</a>
             </li>
           </ul>
           <div className="allmobilesection">
-            <Link to="/pages/contact" className="header-mobile-btn1">
-              Get Started{" "}
+            <Link to="/" className="header-mobile-btn1">
+              Enroll Now{" "}
               <span>
                 <FaArrowRight />
               </span>

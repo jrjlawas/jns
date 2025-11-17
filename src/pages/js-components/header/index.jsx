@@ -1,6 +1,4 @@
-// import logo1Img from "@/assets/img/logo/vl-logo-1.1.png";
 import logo1Img from "@/assets/img/js/logo/logo.svg";
-
 import useScrollEvent from "@/hooks/useScrollEvent";
 import { Link } from "react-router";
 
@@ -31,34 +29,16 @@ const Header = () => {
                   <div className="main-menu">
                     <ul>
                       <li>
-                        <a href="#about">About</a>
+                        <a href="/">Home</a>
                       </li>
                       <li>
-                        <a href="#cause">Cause</a>
-                      </li>
-                      <li>
-                        <a href="#event">Event</a>
-                      </li>
-                      <li>
-                        <a href="#testimonial">Testimonial</a>
-                      </li>
-                      <li>
-                        <a href="#gallery">Gallery</a>
-                      </li>
-                      <li>
-                        <a href="#volunteer">Volunteer</a>
-                      </li>
-                      <li>
-                        <a href="#blog">Blog</a>
-                      </li>
-                      <li>
-                        <a href="#contact">Contact</a>
+                        <a href="/">Contact</a>
                       </li>
                     </ul>
                   </div>
                   <div className="btn-area">
-                    <Link to="/pages/contact" className="header-btn1">
-                      Donate{" "}
+                    <Link to="/" className="header-btn1">
+                      Enroll Now{" "}
                       <span>
                         <FaArrowRight />
                       </span>

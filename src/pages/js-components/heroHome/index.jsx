@@ -40,24 +40,21 @@ const Hero = () => {
           </video>
           <Container>
             <Row>
-              <Col lg={9}>
+              <Col lg={8}>
                 <div className="vl-hero-section-title">
-                  <h5 className="vl-subtitle">
-                    Your Future in Canada Starts Here.
-                  </h5>
+                  <h5 className="vl-subtitle">Your Future Starts Here.</h5>
                   <h1 className="vl-title text-anime-style-3">
-                    Your Canadian Education Begins With a Story—And It Starts
-                    Today.
+                    Your Education Begins With a Story—And It Starts Today.
                   </h1>
                   <p>
                     JS Global Marketing Services helps students like you connect
-                    with prominent schools across Canada through honest
-                    guidance, real experiences, and a team that understands the
-                    courage it takes to build a new future abroad.
+                    with prominent schools through honest guidance, real
+                    experiences, and a team that understands the courage it
+                    takes to build a new future abroad.
                   </p>
                   <div className="vl-hero-btn">
                     <a href="/" className="header-btn1">
-                      Start Your Application{" "}
+                      Enroll Now{" "}
                       <span>
                         <FaArrowRight />
                       </span>
