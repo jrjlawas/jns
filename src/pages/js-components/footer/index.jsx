@@ -97,40 +97,25 @@ const Footer = () => {
               <div className="vl-footer-menu">
                 <ul>
                   <li>
-                    <a href="/">Accounting & Payroll Admin</a>
+                    <a href="/programs/1">Business & Administration</a>
                   </li>
                   <li>
-                    <a href="/">Business Administration</a>
+                    <a href="/programs/2">Technology & Digital Skills</a>
                   </li>
                   <li>
-                    <Link to="/">Digital & Social Media Marketing</Link>
+                    <a href="/programs/3">Health & Wellness</a>
                   </li>
                   <li>
-                    <a href="/">Medical Office Assistant</a>
+                    <a href="/programs/4">Beauty & Aesthetics</a>
                   </li>
                   <li>
-                    <a href="/">Massage Therapy</a>
+                    <a href="/programs/5">Human Services & Community Support</a>
                   </li>
                   <li>
-                    <a href="/">Pharmacy Assistant</a>
+                    <a href="/programs/6">Office & Medical Support</a>
                   </li>
                   <li>
-                    <a href="/">Physiotherapist Assistant</a>
-                  </li>
-                  <li>
-                    <a href="/">Healthcare Aide Curriculum</a>
-                  </li>
-                  <li>
-                    <a href="/">Esthetics Diploma</a>
-                  </li>
-                  <li>
-                    <a href="/">Development Service Worker</a>
-                  </li>
-                  <li>
-                    <a href="/">Education Assistant</a>
-                  </li>
-                  <li>
-                    <a href="/">Supply Chain Management</a>
+                    <a href="/programs/7">Design & Technical</a>
                   </li>
                 </ul>
               </div>
@@ -146,7 +131,9 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="vl-footer-text">
-                  <a href="mailto:support@charity.com">support@charity.com</a>
+                  <a href="mailto:jsglobalmarketing@myyahoo.com">
+                    jsglobalmarketing@myyahoo.com
+                  </a>
                 </div>
               </div>
               <div className="vl-footer-icon-list">
@@ -156,10 +143,7 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="vl-footer-text">
-                  <a href="#">
-                    8708 Technology Forest <br /> Pl Suite 125 -G, The
-                    Woodlands, TX 773
-                  </a>
+                  <a href="#">Calgary, Alberta Canada</a>
                 </div>
               </div>
               <div className="vl-footer-icon-list">
@@ -169,7 +153,7 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="vl-footer-text">
-                  <a href="tel:1234567890">123-456-7890</a>
+                  <a href="tel:5879682738">587-968-2738</a>
                 </div>
               </div>
             </div>

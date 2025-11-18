@@ -54,7 +54,13 @@ const SingleMobileMenu = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">Contact</a>
+              <a href="/">Our Programs</a>
+            </li>
+            <li>
+              <a href="/">About Us</a>
+            </li>
+            <li>
+              <a href="/">Contact Us</a>
             </li>
           </ul>
           <div className="allmobilesection">
@@ -75,7 +81,7 @@ const SingleMobileMenu = () => {
                     />
                   </div>
                   <div className="contact-info-text">
-                    <a href="tel:+3(924)4596512">+3(924)4596512</a>
+                    <a href="tel:5879682738">587-968-2738</a>
                   </div>
                 </div>
                 <div className="contact-info-single">
@@ -83,7 +89,9 @@ const SingleMobileMenu = () => {
                     <FaEnvelope size={16} className="fa-solid fa-envelope" />
                   </div>
                   <div className="contact-info-text">
-                    <a href="mailto:info@example.com">info@example.com</a>
+                    <a href="mailto:jsglobalmarketing@myyahoo.com">
+                      jsglobalmarketing@myyahoo.com
+                    </a>
                   </div>
                 </div>
                 <div className="contact-info-single">
@@ -96,13 +104,12 @@ const SingleMobileMenu = () => {
                     />
                   </div>
                   <div className="contact-info-text">
-                    <a href="mailto:info@example.com">
-                      55 East Birchwood Ave.Brooklyn, <br /> New York
-                      11201,United States
+                    <a href="mailto:jsglobalmarketing@myyahoo.com">
+                      Calgary, Alberta Canada
                     </a>
                   </div>
                 </div>
-                <div className="vl-mobile-contact1">
+                {/* <div className="vl-mobile-contact1">
                   <h3 className="title">Social Links</h3>
                   <div className="social-links-mobile-menu">
                     <ul>
@@ -140,7 +147,7 @@ const SingleMobileMenu = () => {
                       </li>
                     </ul>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
           </div>

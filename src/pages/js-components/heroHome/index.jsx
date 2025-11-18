@@ -44,7 +44,7 @@ const Hero = () => {
                 <div className="vl-hero-section-title">
                   <h5 className="vl-subtitle">Your Future Starts Here.</h5>
                   <h1 className="vl-title text-anime-style-3">
-                    Your Education Begins With a Story—And It Starts Today.
+                    Your Future Begins With a Story. Let Yours Start Today.
                   </h1>
                   <p>
                     JS Global Marketing Services helps students like you connect
