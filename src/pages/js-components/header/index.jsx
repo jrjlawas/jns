@@ -4,7 +4,7 @@ import { Link } from "react-router";
 
 import SingleMobileMenu from "../../js-components/singleMobileMenu";
 
-import { FaArrowRight } from "react-icons/fa6";
+import { FaArrowRight, FaAngleDown } from "react-icons/fa6";
 import { Col, Container, Row } from "react-bootstrap";
 const Header = () => {
   const { scrollY } = useScrollEvent();
@@ -32,18 +32,52 @@ const Header = () => {
                         <a href="/">Home</a>
                       </li>
                       <li>
-                        <a href="/">Our Programs</a>
+                        <a href="#">
+                          Our Programs{" "}
+                          <FaAngleDown className="fa-solid fa-angle-down align-bottom" />
+                        </a>
+                        <ul className="dropdown-padding">
+                          <li>
+                            <Link to="/programs/1">
+                              Business Administration
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/programs/2">
+                              Technology & Digital Skills
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/programs/3">Health & Wellness</Link>
+                          </li>
+                          <li>
+                            <Link to="/programs/4">Beauty & Aesthetics</Link>
+                          </li>
+                          <li>
+                            <Link to="/programs/5">
+                              Human Services & Community Support
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/programs/6">
+                              Office & Medical Support
+                            </Link>
+                          </li>
+                          <li>
+                            <Link to="/programs/7">Design & Technical</Link>
+                          </li>
+                        </ul>
                       </li>
                       <li>
-                        <a href="/">About Us</a>
+                        <a href="/about">About Us</a>
                       </li>
                       <li>
-                        <a href="/">Contact Us</a>
+                        <a href="/contact">Contact Us</a>
                       </li>
                     </ul>
                   </div>
                   <div className="btn-area">
-                    <Link to="/" className="header-btn1">
+                    <Link to="/contact" className="header-btn1">
                       Enroll Now{" "}
                       <span>
                         <FaArrowRight />

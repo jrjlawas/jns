@@ -6,7 +6,7 @@ import Welcome from "../../js-components/welcome";
 import Promo1 from "../../js-components/promo1";
 import Contact from "../../js-components/contact";
 
-import CtaArea from "@/components/layouts/CtaArea";
+import CtaArea from "../../js-components/cta";
 import Footer from "../../js-components/footer";
 import BackToTop from "@/components/BackToTop.jsx";
 

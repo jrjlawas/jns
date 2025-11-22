@@ -5,6 +5,7 @@ import {
   FaArrowRight,
   FaBars,
   FaEnvelope,
+  FaAngleDown,
   FaFacebookF,
   FaInstagram,
   FaLinkedinIn,
@@ -54,17 +55,45 @@ const SingleMobileMenu = () => {
               <a href="/">Home</a>
             </li>
             <li>
-              <a href="/">Our Programs</a>
+              <a href="#">
+                Our Programs{" "}
+                <FaAngleDown className="fa-solid fa-angle-down align-bottom" />
+              </a>
+              <ul className="dropdown-padding">
+                <li>
+                  <Link to="/programs/1">Business Administration</Link>
+                </li>
+                <li>
+                  <Link to="/programs/2">Technology & Digital Skills</Link>
+                </li>
+                <li>
+                  <Link to="/programs/3">Health & Wellness</Link>
+                </li>
+                <li>
+                  <Link to="/programs/4">Beauty & Aesthetics</Link>
+                </li>
+                <li>
+                  <Link to="/programs/5">
+                    Human Services & Community Support
+                  </Link>
+                </li>
+                <li>
+                  <Link to="/programs/6">Office & Medical Support</Link>
+                </li>
+                <li>
+                  <Link to="/programs/7">Design & Technical</Link>
+                </li>
+              </ul>
             </li>
             <li>
-              <a href="/">About Us</a>
+              <a href="/about">About Us</a>
             </li>
             <li>
-              <a href="/">Contact Us</a>
+              <a href="/contact">Contact Us</a>
             </li>
           </ul>
           <div className="allmobilesection">
-            <Link to="/" className="header-mobile-btn1">
+            <Link to="/contact" className="header-mobile-btn1">
               Enroll Now{" "}
               <span>
                 <FaArrowRight />
@@ -105,7 +134,7 @@ const SingleMobileMenu = () => {
                   </div>
                   <div className="contact-info-text">
                     <a href="mailto:jsglobalmarketing@myyahoo.com">
-                      Calgary, Alberta Canada
+                      5204 Marshall Rd NE, Calgary, AB Canada
                     </a>
                   </div>
                 </div>

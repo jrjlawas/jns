@@ -8,7 +8,7 @@ const Contact = () => {
           <Col lg={6} className="mb-30">
             <div className="vl-maps">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d160632.0717670613!2d-113.92442066676635!3d51.01843737977722!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x537170039f843fd5%3A0x266d3bb1b652b63a!2sCalgary%2C%20AB%2C%20Canada!5e0!3m2!1sen!2sph!4v1763439206122!5m2!1sen!2sph"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d22678.606333336273!2d-113.98412443871041!3d51.06465692160698!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x53717b37c9327641%3A0x3117767c9d52b3a3!2s5204%20Marshall%20Rd%20NE%2C%20Calgary%2C%20AB%20T2A%202Y9%2C%20Canada!5e0!3m2!1sen!2sph!4v1763774369279!5m2!1sen!2sph"
                 allowFullScreen
                 className="vl-contact-maps"
               />

@@ -76,13 +76,10 @@ const Footer = () => {
                     <Link to="/">Home</Link>
                   </li>
                   <li>
-                    <Link to="/">Our Programs</Link>
+                    <Link to="/about">About Us</Link>
                   </li>
                   <li>
-                    <Link to="/">About Us</Link>
-                  </li>
-                  <li>
-                    <Link to="/">Contact Us</Link>
+                    <Link to="/contact">Contact Us</Link>
                   </li>
                   <li>
                     <Link to="/">Enroll Now</Link>
@@ -143,7 +140,7 @@ const Footer = () => {
                   </span>
                 </div>
                 <div className="vl-footer-text">
-                  <a href="#">Calgary, Alberta Canada</a>
+                  <a href="#">5204 Marshall Rd NE, Calgary, AB Canada</a>
                 </div>
               </div>
               <div className="vl-footer-icon-list">
@@ -169,7 +166,7 @@ const Footer = () => {
                 {/* © 2025 Glotti Business Solutions. All Rights Reserved. */}
               </p>
             </Col>
-            <Col md={6}>
+            {/* <Col md={6}>
               <div className="vl-copyright-menu">
                 <ul>
                   <li>
@@ -180,7 +177,7 @@ const Footer = () => {
                   </li>
                 </ul>
               </div>
-            </Col>
+            </Col> */}
           </Row>
         </div>
       </Container>
