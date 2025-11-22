@@ -5,6 +5,7 @@ import Hero from "../../js-components/heroHome";
 import Welcome from "../../js-components/welcome";
 import Promo1 from "../../js-components/promo1";
 import Contact from "../../js-components/contact";
+import Programs from "../../js-components/programs";
 
 import CtaArea from "../../js-components/cta";
 import Footer from "../../js-components/footer";
@@ -20,6 +21,7 @@ const Home = () => {
       <Hero />
       <Welcome />
       <Promo1 />
+      <Programs />
       <Contact />
       <CtaArea />
       <Footer />

@@ -2,6 +2,7 @@ import PageMeta from "@/components/PageMeta.jsx";
 import TopBanner from "../../js-components/topbanner";
 import Header from "../../js-components/header";
 import Hero from "../../js-components/heroAbout";
+import About from "../../js-components/about";
 import CtaArea from "../../js-components/cta";
 import Footer from "../../js-components/footer";
 import BackToTop from "@/components/BackToTop.jsx";
@@ -14,7 +15,7 @@ const AboutJS = () => {
       <TopBanner />
       <Header />
       <Hero />
-      {/* <Contact /> */}
+      <About />
       <CtaArea />
       <Footer />
       <BackToTop />
