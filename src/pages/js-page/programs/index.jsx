@@ -1,7 +1,7 @@
 import PageMeta from "@/components/PageMeta.jsx";
 import TopBanner from "../../js-components/topbanner";
 import Header from "../../js-components/header";
-import Hero from "../../js-components/heroHome";
+import Hero from "../../js-components/heroProgram";
 import FilteredPrograms from "../../js-components/filteredPrograms";
 import Contact from "../../js-components/contact";
 
