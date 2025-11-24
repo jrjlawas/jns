@@ -2,8 +2,7 @@ import PageMeta from "@/components/PageMeta.jsx";
 import TopBanner from "../../js-components/topbanner";
 import Header from "../../js-components/header";
 import Hero from "../../js-components/heroHome";
-import Welcome from "../../js-components/welcome";
-import Promo1 from "../../js-components/promo1";
+import FilteredPrograms from "../../js-components/filteredPrograms";
 import Contact from "../../js-components/contact";
 
 import CtaArea from "../../js-components/cta";
@@ -18,6 +17,7 @@ const ProgramsPage = () => {
       <TopBanner />
       <Header />
       <Hero />
+      <FilteredPrograms />
       <Contact />
       <CtaArea />
       <Footer />
