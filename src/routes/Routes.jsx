@@ -4,6 +4,8 @@ import { lazy } from "react";
 const Home = lazy(() => import("@/pages/js-page/home"));
 const ContactJS = lazy(() => import("@/pages/js-page/contact"));
 const AboutUsJS = lazy(() => import("@/pages/js-page/aboutUs"));
+const ProgramsPage = lazy(() => import("@/pages/js-page/programs"));
+
 const MultiPageAnimalRescue = lazy(() =>
   import("@/pages/multi-page/animal-rescue")
 );
@@ -58,6 +60,11 @@ const multiPageRoutes = [
     path: "/about",
     name: "multi-page-aboutus",
     element: <AboutUsJS />,
+  },
+  {
+    path: "/programs/:id",
+    name: "multi-page-programpage",
+    element: <ProgramsPage />,
   },
   {
     path: "/multi-page/animal-rescue",
