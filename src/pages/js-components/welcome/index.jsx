@@ -1,11 +1,11 @@
-import about1 from "@/assets/img/js/home/about1.svg";
+import about5 from "@/assets/img/js/home/about5.svg";
 import { Col, Container, Row } from "react-bootstrap";
 const Welcome = () => {
   return (
     <section id="about" className="vl-about-section sp2">
       <Container>
         <Row>
-          <Col lg={8}>
+          <Col lg={7}>
             <div className="vl-about-content">
               <div className="vl-section-title-1">
                 <h5
@@ -49,9 +49,16 @@ const Welcome = () => {
               </div>
             </div>
           </Col>
-          <Col lg={4} md={6} className="mb-30">
-            <div className="vl-about-large-thumb reveal">
-              <img className="w-100" src={about1} alt="about1" />
+          <Col lg={5} md={12}>
+            <div className="vl-about-content">
+              <div className="vl-sm-thumb mb-30 reveal">
+                <img
+                  className="w-100"
+                  style={{ borderRadius: "15px" }}
+                  src={about5}
+                  alt="thumb1"
+                />
+              </div>
             </div>
           </Col>
         </Row>
